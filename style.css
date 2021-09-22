@@ -1,5 +1,40 @@
+.header{
+    background-color: black;
+    display: flex;
+}
+.title{
+    text-align: center;
+    margin-top: 2px;
+    margin-bottom: 0px;
+}
+#header{
+    color: white;
+    margin-left: 20px;
+}
+.content {
+    display: flex;
+    align-items: center;
+}
+
+.profile {
+    display: flex;
+    flex-direction: column;
+    border-style: solid;
+    border-color: black;
+    height: 250px;
+    width: 150px;
+    align-items: center;
+    margin-left: 30px;
+
+}
+.avatar {
+    height: 80px;
+    width: 80px;
+}
+
 .userbox {
-    margin-left: 100px;
+    margin-left: 30px;
+    margin-top: 15px;
     width: 500px;
     height: 150px;
     outline-style: solid;
@@ -18,7 +53,7 @@
     margin-right: 60px;
 }
 #likecounter{
-    
+
 }
 .like{
     width: 60px;
